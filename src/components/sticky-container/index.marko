@@ -1,7 +1,7 @@
 style {
     .container {
-        background: hotpink;
         display: block;
+        text-align: center;
         width: 100%;
     }
 
@@ -9,7 +9,15 @@ style {
         position: sticky;
         top: 0;
     }
+
+    .title {
+        padding-top: 45vh;
+        font-size: 40px;
+    }
 }
 
-div.container style="height: ${input.height}"
-  div.sticky -- ${input.text}
+div.container style="height: ${input.height};"
+    div.sticky
+        h2.title
+            include(input.title)
+        include(input.renderBody)
