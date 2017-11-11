@@ -9,15 +9,8 @@ style {
         position: sticky;
         top: 0;
     }
-
-    .title {
-        padding-top: 45vh;
-        font-size: 40px;
-    }
 }
 
-div.container style="height: ${input.height};"
+div.container style="height: ${input.height}; background: ${input.background}"
     div.sticky
-        h2.title
-            include(input.title)
         include(input.renderBody)

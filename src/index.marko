@@ -1,13 +1,23 @@
 site-layout
   @title -- Sticky POC
   @content
-    sticky-container height="100vh"
-      @title -- This is a sticky container with a div inside
-    sticky-container height="100vh"
-      div -- This is a sticky container with a div inside
-    sticky-container height="100vh"
-      div -- This is a sticky container with a div inside
-    sticky-container height="100vh"
-      div -- This is a sticky container with a div inside
-    sticky-container height="100vh"
-      div -- This is a sticky container with a div inside
+    hero-title
+      @title -- StickyPOC
+    sticky-container height="200vh" background="#3366ff"
+      column width="60%"
+        div
+          h1 -- A list
+          ul
+            li -- A bullet point
+            li -- A bullet point
+            li -- A bullet point
+            li -- A bullet point
+            li -- A bullet point
+      column width="40%"
+        sticky-container height="50vh" background="white"
+          -- Some content here
+    sticky-container height="100vh" background="blue"
+
+    sticky-container height="100vh" background="teal"
+
+    sticky-container height="100vh" background="yellow"
