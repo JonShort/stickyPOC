@@ -1,0 +1,32 @@
+style {
+  .wrapper {
+    background: #3366ff;
+    height: 100%;
+    padding: calc(1vh + 1vw);
+  }
+
+  .box {
+    border: calc(1vh + 1vw) solid #fff;
+    border-radius: calc(2vh + 2vw);
+    position: sticky;
+    height: 100%;
+  }
+
+  .title-container {
+    height: 100%;
+    text-align: center;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: calc(5vh + 5vw);
+    position: sticky;
+    top: calc(50% - (2.5vh + 2.5vw));
+  }
+}
+
+div.wrapper
+  div.box
+    div.title-container
+      h2
+        include(input.title)

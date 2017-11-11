@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: sans-serif;
   background: #eee;
@@ -42,8 +50,6 @@ h1 {
 
 h2 {
   font-weight: 600;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
 }
 
 h3 {

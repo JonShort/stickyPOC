@@ -1,0 +1,16 @@
+style {
+    .container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+}
+
+div.container style="height: ${input.height}; background: ${input.background}"
+    div.sticky
+        include(input.renderBody)
