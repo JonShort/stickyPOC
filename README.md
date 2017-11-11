@@ -1,5 +1,5 @@
 # Sticky POC
-This repo is designed to show how powerful `position: sticky` can be.
+This repo is designed to show how `position: sticky` allows for some cool layouts.
 
 ## Install
 
